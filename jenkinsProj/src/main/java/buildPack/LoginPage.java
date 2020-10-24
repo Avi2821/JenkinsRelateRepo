@@ -27,9 +27,6 @@ public class LoginPage {
 			driver = new FirefoxDriver();
 		}
 	
-		
-		WebDriverManager.chromedriver().setup();
-		ChromeDriver driver = new ChromeDriver();
 		driver.get("https://www.gmail.com");
 		driver.findElementByXPath("//input[@type='email']").sendKeys("avinashnatikar28@gmail.com");
 		driver.findElementByXPath("//span[contains(text(),'Next')]/parent::button").click();
