@@ -14,7 +14,6 @@ public class LoginPage {
 
 	@Test
 	public void loginSteps() throws InterruptedException {
-		
 		String browser = System.getProperty("browser");
 		System.out.print(browser);
 		if(browser.equals("chrome")) {
